@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // 3. Atur display none pada card-container dan tampilkan pesan jika data tidak ditemukan
                 infoCuaca.style.display = 'none';
                 cardContainer.style.display = 'none';
-                judulHighlight.innerHTML = 'Kota tidak ditemukan';
+                judulHighlight.innerHTML = 'Location not Found';
                 console.error('Error fetching weather data:', error);
             });
     }
